@@ -12,18 +12,36 @@
     </header>
     <div class="newsfeed">
       <aside class="side">
-        <form class="side__form">
+        <div class="createForm">
+          <input
+            type="text"
+            placeholder="Share your innovative opinions..."
+            class="displayForm"
+          />
+        </div>
+        <form class="side__form hide">
           <h1>Create a new Topic</h1>
 
           <input type="text" placeholder="Find the location" />
+          <select id="month" name="month">
+            <option selected>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <input
+            type="text"
+            placeholder="Enter your description here"
+            class="side__form__description"
+          />
           <input type="text" placeholder="Tags" />
-          <input type="text" placeholder="Rating" />
-          <input type="text" placeholder="Enter your description here" />
+
           <div class="image">
-            <h3>Add pictures</h3>
-            <p><small>+</small></p>
+            <h3>Add pictures +</h3>
           </div>
-          <input type="submit" />
+
+          <input type="submit" value="Submit" class="submit-btn" />
         </form>
       </aside>
       <main class="main">
