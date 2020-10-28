@@ -22,7 +22,11 @@
         <form class="side__form hide">
           <h1>Create a new Topic</h1>
 
-          <input type="text" placeholder="Find the location" />
+          <input
+            type="text"
+            placeholder="Find the location"
+            class="side__form__location"
+          />
           <div id="rating" name="rating">
             <span class=""><i class="fas fa-star"></i></span>
             <span class=""><i class="fas fa-star"></i></span>
@@ -48,8 +52,21 @@
         <div class="posts">
           <h1>Make better place to live</h1>
           <article class="post">
+            <small><i class="fas fa-map-marker-alt"></i>Seoul, Korea</small>
             <img src="" alt="example" />
-            <p>I hate this whole world. Can i leave?</p>
+            <p>I want to set me free. Can i please go to space to live?</p>
+            <hr />
+            <i class="far fa-heart"></i> 4
+            <i class="fas fa-stopwatch"></i> 10:04
+          </article>
+
+          <article class="post">
+            <small><i class="fas fa-map-marker-alt"></i>Toronto, Canada</small>
+            <img src="" alt="example" />
+            <p>I want to be a developer in Canada. Can i?</p>
+            <hr />
+            <i class="far fa-heart"></i> 10
+            <i class="fas fa-stopwatch"></i> 10:04
           </article>
         </div>
       </main>
