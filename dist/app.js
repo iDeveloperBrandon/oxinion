@@ -21,9 +21,9 @@ submitBtn.addEventListener("click", function (e) {
   console.log(valueLocation, valueDesc);
   posts.innerHTML = `
   <article class="post">
-    <small><i class="fas fa-map-marker-alt"></i>Toronto, Canada</small>
+    <small><i class="fas fa-map-marker-alt"></i>${valueLocation}</small>
     <img src="" alt="example" />
-    <p>I want to be a developer in Canada. Can i?</p>
+    <p>${valueDesc}</p>
     <hr />
     <i class="far fa-heart"></i> 10
     <i class="fas fa-stopwatch"></i> 10:04
