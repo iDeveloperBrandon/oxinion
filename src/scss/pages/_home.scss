@@ -1,0 +1,35 @@
+.newsfeed {
+  display: grid;
+  margin: 2rem;
+  @media (min-width: 500px) {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.side {
+  background-color: #fbf2f3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__form {
+    width: 85%;
+    background-color: #fff;
+    margin: 1rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #eff4fd;
+    border-radius: 4px;
+    margin: 0 0 1rem 0;
+  }
+}
+
+.main {
+  background-color: #dfe7fc;
+}
