@@ -1,6 +1,6 @@
 .newsfeed {
   display: grid;
-  margin: 1.5rem;
+  margin: 0 1.5rem;
   @media (min-width: 500px) {
     grid-template-columns: 1fr 2fr;
   }
@@ -39,7 +39,12 @@
 }
 
 .main {
+  margin: 1rem;
   background-color: #dfe7fc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hide {
