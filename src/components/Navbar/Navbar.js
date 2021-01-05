@@ -25,12 +25,19 @@ const Navbar = () => {
               <NavIcon />
               OXINION
             </NavLogo>
-            <MobileIcon onClick={handleClick}>
+            <MobileIcon onClick={handleClick} click={click}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
+
             <NavMenu onClick={handleClick}>
               <NavItem>
                 <NavLinks to="/">Home</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/services">Services</NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="/products">Products</NavLinks>
               </NavItem>
             </NavMenu>
           </NavbarContainer>
